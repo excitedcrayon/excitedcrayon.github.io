@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="mouseclickfx.css" type="text/css">
+    <script src="mouseclickfx.js" type="text/javascript"></script>
+    <title>JS - MouseClickFx</title>
+</head>
+
+<body>
+    <img src="https://media.giphy.com/media/2sYb5oQ6rwxXSaABjW/giphy.gif" alt="">
+    <div class="container">
+        <div class="coord">
+            <span id="x-coord"></span>
+            <span id="y-coord"></span>
+        </div>
+    </div>
+    <div class="icons">
+        <img id="img-bell" src="res/img/bell.png" alt="Bell Image" />
+        <img id="img-bullet-hole" src="res/img/bullet-hole.png" alt="Bullet Hole Image" />
+        <img id="img-buzzer" src="res/img/buzzer.png" alt="Buzzer Image" />
+        <img id="img-ink-splatter" src="res/img/ink-splatter.png" alt="Ink Splatter Image" />
+        <div class="selection">
+            <label for="bell">
+                <input type="radio" name="icon" id="bell" value="bell" checked>
+                Bell
+            </label>
+            <label for="bulltet">
+                <input type="radio" name="icon" id="bullet" value="bullet">
+                Bullet
+            </label>
+            <label for="buzzer">
+                <input type="radio" name="icon" id="buzzer" value="buzzer">
+                Buzzer
+            </label>
+            <label for="splat">
+                <input type="radio" name="icon" id="splat" value="splat">
+                Ink Splatter
+            </label>
+        </div>
+    </div>
+    <div class="canvas" id="canvas"></div>
+</body>
+
+</html>
