@@ -2,7 +2,7 @@
 Git hosted website containing some on-going web development projects
 
 # Homepage
-<a href="https://excitedcrayon.github.io/">excitedcrayon.github.io</a>
+<a href="https://excitedcrayon.github.io/" target="_blank">excitedcrayon.github.io</a>
 
 ## Live Code Editor Demo
 <a href="https://excitedcrayon.github.io/live-editor/" target="_blank">Live Code Editor</a>
